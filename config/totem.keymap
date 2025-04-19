@@ -85,10 +85,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-            &kp Q       &kp W       &kp E        &kp R        &kp T        &kp Y    &kp U        &kp I        &kp O       &kp P
-            &mt LGUI A  &mt LALT S  &mt LCTRL D  &mt LSHFT F  &kp G        &kp H    &mt RSHFT J  &mt RCTRL K  &mt RALT L  &mt RGUI SEMI
-&kp ESCAPE  &kp Z       &kp X       &kp C        &kp V        &kp B        &kp N    &kp M        &kp COMMA    &kp DOT     &kp FSLH       &kp BSLH
-                                    &kp DEL      &lt NAV TAB  &kp SPACE    &kp RET  &lt SYM ESC  &kp BSPC
+            &kp Q       &kp W       &kp E        &kp R        &kp T          &kp Y    &kp U        &kp I        &kp O       &kp P
+            &mt LGUI A  &mt LALT S  &mt LCTRL D  &mt LSHFT F  &kp G          &kp H    &mt RSHFT J  &mt RCTRL K  &mt RALT L  &mt RGUI SEMI
+&kp ESCAPE  &kp Z       &kp X       &kp C        &kp V        &kp B          &kp N    &kp M        &kp COMMA    &kp DOT     &kp FSLH       &kp BSLH
+                                    &kp DEL      &lt NAV TAB  &lt 6 SPACE    &kp RET  &lt SYM ESC  &kp BSPC
             >;
         };
 
@@ -224,10 +224,10 @@
 
         sway {
             bindings = <
-        &trans  &trans  &trans  &trans  &trans    &trans  &trans            &trans  &trans  &trans
-        &trans  &trans  &trans  &trans  &trans    &trans  &trans            &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp LG(NUMBER_1)  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans            &trans
+        &trans  &trans  &kp RA(RC(RG(E)))  &kp RA(RG(RC(R)))  &kp RA(RC(RG(T)))    &trans  &kp RG(RA(RC(N7)))  &kp RG(RA(RC(N8)))  &kp RG(RA(RC(N9)))  &trans
+        &trans  &trans  &kp RG(RC(RA(D)))  &kp RG(RC(RA(F)))  &kp RG(RC(RA(G)))    &trans  &kp RG(RC(RA(N4)))  &kp RA(RG(RC(N5)))  &kp RG(RC(RA(N6)))  &trans
+&trans  &trans  &trans  &kp RA(RC(RG(C)))  &kp RG(RC(RA(V)))  &kp RG(RC(RA(B)))    &trans  &kp LG(NUMBER_1)    &kp RG(RC(RA(N2)))  &kp RG(RA(RC(N3)))  &trans  &trans
+                        &trans             &trans             &trans               &trans  &trans              &kp RG(RC(RA(N0)))
             >;
         };
     };
