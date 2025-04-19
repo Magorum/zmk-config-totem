@@ -224,10 +224,10 @@
 
         sway {
             bindings = <
-        &trans  &trans  &kp RA(RC(RG(E)))  &kp RA(RG(RC(R)))  &kp RA(RC(RG(T)))    &trans  &kp RG(RA(RC(N7)))  &kp RG(RA(RC(N8)))  &kp RG(RA(RC(N9)))  &trans
-        &trans  &trans  &kp RG(RC(RA(D)))  &kp RG(RC(RA(F)))  &kp RG(RC(RA(G)))    &trans  &kp RG(RC(RA(N4)))  &kp RA(RG(RC(N5)))  &kp RG(RC(RA(N6)))  &trans
-&trans  &trans  &trans  &kp RA(RC(RG(C)))  &kp RG(RC(RA(V)))  &kp RG(RC(RA(B)))    &trans  &kp LG(NUMBER_1)    &kp RG(RC(RA(N2)))  &kp RG(RA(RC(N3)))  &trans  &trans
-                        &trans             &trans             &trans               &trans  &trans              &kp RG(RC(RA(N0)))
+        &trans  &trans             &kp RA(RC(RG(E)))  &kp RA(RG(RC(R)))  &kp RA(RC(RG(T)))    &trans  &kp RG(RA(RC(N7)))  &kp RG(RA(RC(N8)))  &kp RG(RA(RC(N9)))  &trans
+        &trans  &kp RA(RC(RG(S)))  &kp RG(RC(RA(D)))  &kp RG(RC(RA(F)))  &kp RG(RC(RA(G)))    &trans  &kp RG(RC(RA(N4)))  &kp RA(RG(RC(N5)))  &kp RG(RC(RA(N6)))  &trans
+&trans  &trans  &trans             &kp RA(RC(RG(C)))  &kp RG(RC(RA(V)))  &kp RG(RC(RA(B)))    &trans  &kp LG(NUMBER_1)    &kp RG(RC(RA(N2)))  &kp RG(RA(RC(N3)))  &trans  &trans
+                                   &trans             &trans             &trans               &trans  &trans              &kp RG(RC(RA(N0)))
             >;
         };
     };
